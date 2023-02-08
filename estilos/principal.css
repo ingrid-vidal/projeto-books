@@ -50,6 +50,7 @@ a{
     margin: 1%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     border-radius: 20px;
     position: relative;
     transition: all .5s;
@@ -58,7 +59,7 @@ section.b1{
     background-color: pink;
 }
 section.b2{
-    background-image: url('../imagens/Livro---Hitler-teste.png.url');
+    background-image: url('../imagens/hitler.png');
 }
 section.b3{
     background-color: rgba(250, 98, 98, 0.875);
