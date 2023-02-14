@@ -56,7 +56,7 @@ a{
     transition: all .5s;
 }
 section.b1{
-    background-color: pink;
+    background-image: url('../imagens/menina.png');
 }
 section.b2{
     background-image: url('../imagens/Livro-02.png');
