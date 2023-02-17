@@ -75,7 +75,7 @@ section.b3{
     filter: blur(0px);
     transform: scale(1);
     opacity: 1;
-    box-shadow: 0px 0px 16px ;
+    box-shadow: 0px 0px 16px #c13640;
 }
 #container:hover .b2:hover{
     filter: blur(0px);
