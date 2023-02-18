@@ -39,6 +39,7 @@ main#container{
     column-gap: 20px;
     margin: 5%;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -73,19 +74,19 @@ section.b3{
 }
 #container:hover .b1:hover{
     filter: blur(0px);
-    transform: scale(1);
+    transform: scale(1.1);
     opacity: 1;
     box-shadow: 0px 0px 16px #ffffff;
 }
 #container:hover .b2:hover{
     filter: blur(0px);
-    transform: scale(1);
+    transform: scale(1.1);
     opacity: 1;
     box-shadow: 0px 0px 16px #796b64;
 }
 #container:hover .b3:hover{
     filter: blur(0px);
-    transform: scale(1);
+    transform: scale(1.1);
     opacity: 1;
     box-shadow: 0px 0px 16px rgb(242, 58, 58);
 }
@@ -101,8 +102,30 @@ footer{
     color: rgba(255, 255, 255, 0.704);
 }
 footer a{
+    position: relative;
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.704);
 }
+footer a::before{
+    content:"";
+    width: 100%;
+    position: absolute;
+    height: 1.8px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+ footer a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
 
 
 
