@@ -70,8 +70,8 @@ div{
     width: 250px;
     height: 400px;
     border-radius: 20px;
-    background-color: rgba(250, 98, 98, 0.875);
-    box-shadow: 0px 0px 16px rgb(242, 58, 58);
+    background-image: url('../imagens/Teste.png');
+    box-shadow: 0px 0px 16px rgb(102, 60, 60);
     margin: 30px auto;
 }
 #info{
