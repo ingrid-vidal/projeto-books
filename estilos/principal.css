@@ -74,7 +74,7 @@ section.b3{
     opacity: .2;
     transform: scale(.98);
     box-shadow: none;
-    transition-timing-function: cubic-bezier(.2,.1, .1, 2)
+    transition-timing-function: cubic-bezier(.2,.1, .1, 2);
 }
 #container:hover .b1:hover{
     filter: blur(0px);
