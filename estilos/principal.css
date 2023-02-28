@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +33,7 @@ header h1{
     
     display: inline-block;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.39);
-    font-family: 'Abel', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
 }
 
@@ -69,6 +73,7 @@ section.b3{
 }
 .bloco h1{
     text-align: center;
+    font-family: 'abel', cursive;
 }
 
 #container:hover .bloco{
@@ -83,6 +88,7 @@ section.b3{
     transform: scale(1.1);
     opacity: 1;
     box-shadow: 0px 0px 16px #7F9E8E;
+    
 }
 #container:hover .b2:hover{
     filter: blur(0px);
